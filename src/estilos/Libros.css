@@ -1,0 +1,43 @@
+#lista-libros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    list-style: none;
+}
+
+#tarjeta-libros {
+    background-color: #f9f9f9;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(49, 186, 193, 0.3);
+    width: 250px;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+}
+
+#tarjeta-libros img {
+    width: 100%;
+}
+
+#tarjeta-libros h3 {
+    color:darkblue;
+    margin: 3%;
+}
+
+#tarjeta-libros h4 {
+    color:darkblue;
+    margin: 3%;
+}
+
+#tarjeta-libros a {
+    text-decoration: none;
+}
+
+#tarjeta-libros #precio {
+    color:darkgreen;
+}
+
+

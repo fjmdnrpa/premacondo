@@ -1,0 +1,51 @@
+#detalle-libros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    list-style: none;
+}
+
+#tarjeta-detalle {
+    background-color: #f9f9f9;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(49, 186, 193, 0.3);
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#tarjeta-detalle img {
+    justify-content: center;
+    width: 50%;
+}
+
+#tarjeta-detalle h3 {
+    margin: 3%;
+}
+
+#tarjeta-detalle h4 {
+    margin: 3%;
+}
+
+#tarjeta-detalle p {
+    font-style: italic ;
+    font-size: 70%;
+}
+
+#tarjeta-detalle a {
+    text-decoration: none;
+}
+
+#tarjeta-detalle #precio-detalle {
+    color:darkgreen;
+}
+
+#tarjeta-detalle button {
+    color:darkblue;
+    justify-content: center;
+    margin:2%;
+}

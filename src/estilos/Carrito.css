@@ -1,0 +1,72 @@
+#Carrito-compras {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:space-around;
+    padding: 20px;
+    list-style: none;
+    
+}
+
+#Detalle-carrito {
+    background-color: #eee;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(49, 186, 193, 0.3);
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#Carrito-compras img {
+    width: 5%;
+    margin-bottom: -3%;
+    margin-right: 5%;
+    padding: 1%;
+}
+
+#Carrito-compras h3 {
+    margin: 3%;
+}
+
+#Carrito-compras h4 {
+    margin: 3%;
+}
+
+#Carrito-compras a {
+    text-decoration: none;
+}
+
+#Carrito-compras #eliminar-libro {
+    margin-bottom: -2%;
+    width: 4%;
+    
+}
+
+#Carrito-compras #vaciar-carrito {
+    border-radius: 10px;
+    border-style: none;
+    color:white;
+    background-color: red;
+    justify-content: center;
+    margin:2%;
+    padding: 2%;
+}
+
+#Carrito-compras #pagar-carrito {
+    border-radius: 10px;
+    border-style: none;
+    color:white;
+    background-color: darkgreen;
+    justify-content: center;
+    margin:2%;
+    padding: 2% 6%;
+}
+
+
+#Carrito-compras button {
+    color:darkred;
+    justify-content: center;
+    margin:2%;
+}

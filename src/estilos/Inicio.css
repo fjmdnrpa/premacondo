@@ -1,0 +1,18 @@
+#pagina-inicio{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#pagina-inicio h1{
+    margin: 5px;
+    color:forestgreen;
+}
+
+#pagina-inicio #imagen-inicio{
+    margin: 2%;
+    width: 30%;
+    border-radius: 30px;
+}

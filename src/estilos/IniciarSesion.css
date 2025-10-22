@@ -1,0 +1,47 @@
+#iniciar-sesion {
+    margin:1% auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(49, 186, 193, 0.3);
+    width: 50%;
+    background-color: #eee;
+}
+
+#formulario-sesion {
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    border-radius: 5px;
+    margin: 3%;
+    padding: 3%;
+}
+
+#boton-iniciar-sesion {
+    background-color: green;
+    color:white;
+    margin: 3%;
+    padding: 4%;
+    border-color: grey;
+    border-radius: 15px;
+}
+
+#boton-cancelar-sesion {
+    background-color:red;
+    color:white;
+    margin: 3%;
+    padding: 3%;
+    border-color: grey;
+    border-radius: 15px;
+}
+

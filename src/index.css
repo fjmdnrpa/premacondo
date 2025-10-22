@@ -1,0 +1,11 @@
+body{
+  font-family: sansation;
+  background-image: url("fondo230.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer {
+  background-color: lightgrey;
+  text-align: center;
+}
