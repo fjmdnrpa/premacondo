@@ -5,8 +5,8 @@ function Inicio() {
 
   return (
     <div id="pagina-inicio">
-        <h1>Benvenidos a Libreria Macondo</h1>
-        <h1>Todos los libros del mundo en un solo universo</h1>
+        <h1>Benvenidos a LIBRERIA MACONDO</h1>
+        <h1>Todos los universos del mundo en un solo lugar</h1>
         <img id="imagen-inicio" src="macondo.jpg" alt="macondo"></img>
     </div>
   )

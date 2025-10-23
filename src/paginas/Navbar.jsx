@@ -18,8 +18,8 @@ function Navbar() {
             <li >
             {isAuthenticated ? (
             <div id="parcial-carrito">
-              <h2>{usuario.nombre}</h2>
-              <h2 id="cantidad-carrito">{carrito.length}</h2>
+              <h3>{usuario.nombre}</h3>
+              <h3 id="cantidad-carrito">{carrito.length}</h3>
               <button id="boton-cerrar"
                 onClick={cerrarSesion}
               >

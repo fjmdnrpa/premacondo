@@ -37,7 +37,6 @@ export default function Novedades() {
         <li id="tarjeta-libros" key={libro.id}>
           <h3>{libro.titulo}</h3>
           <h4>{libro.autor}</h4>        
-          <h4>{libro.categoria}</h4>  
           <Link><h4 id="precio" onClick={() => agregarAlCarrito(libro)}>${libro.precio}</h4></Link>
           <Link to={`/libros/${libro.categoria}/${libro.isbn}`} state={{libro}}>
           <img src={libro.portada} alt={libro.titulo} />

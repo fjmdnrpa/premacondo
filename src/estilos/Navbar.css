@@ -27,7 +27,7 @@ nav a {
 
 #parcial-carrito {
   margin: auto;
-  margin-top: 4%;
+  margin-top: 6%;
   display:flex;
   justify-content:space-between;
 
@@ -39,7 +39,8 @@ nav a {
     color:white;
     background-color: #999;
     justify-content: center;
-    margin:5%;
+    margin:auto;
+    padding:5%;
 
 }
 

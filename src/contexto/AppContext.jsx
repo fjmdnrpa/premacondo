@@ -13,9 +13,21 @@ export function AppProvider({ children }) {
     // Funciones para el carrito
     //Agregar libro al carrito
     const agregarAlCarrito = (libro) => {
-    setCarrito([...carrito, libro]); 
-    alert(`Producto ${libro.titulo} agregado.`);
+      setCarrito(prevCarrito => {
+        const libroExistente = prevCarrito.find(item => item.id === libro.id);
+        if (libroExistente) {
+          return prevCarrito.map(item =>
+            item.id === libro.id ?
+            {...item, cantidad: (item.cantidad || 1) +1}
+            :item
+          );
+        } else {
+          return [...prevCarrito, {...libro, cantidad: 1}]
+        }
+      });
+      alert(`Producto ${libro.titulo} agregado.`);
     };
+
     //Vaciar carrito
     const vaciarCarrito = () => {
     setCarrito([]);

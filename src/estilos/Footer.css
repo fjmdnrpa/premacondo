@@ -1,13 +1,13 @@
 .pie-pagina {
     margin-top: 0;
-    padding: 0.5%;
+    padding: 0;
     background-color: #eee;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     color:darkgreen;
     text-align: center;
     .parrafo {
-        margin-top: 1vh;
-        font-size: 3.5vh;
+        margin: 1%;
+        font-size: 2.5vh;
         font-weight: 700;
     }
 }
@@ -20,7 +20,7 @@
     align-items:center;
 
     .iconos{
-        width:  7vh;
+        width:  5vh;
         margin: 1vh;
     }
 
@@ -33,7 +33,7 @@
         margin-top: 2vh;
         text-decoration: none;
         cursor: pointer;
-        font-size: 3.5vh;
+        font-size: 3vh;
         font-weight: 700;
         color:darkgreen;
         transition: 0.5 ease;

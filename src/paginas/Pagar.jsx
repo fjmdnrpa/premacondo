@@ -8,13 +8,12 @@ export default function Pagar() {
   const navigate = useNavigate();
 
 
-  // Calculo del total
-  const total = carrito.reduce(
-    (suma, libro) => suma + Number(libro.precio),
-    0
-  );
+  const total = carrito.reduce((sum, item) => {
+    const cantidad = item.cantidad || 1;
+    return sum + item.precio * cantidad;
+  }, 0);
 
-  // Función para finalizar compra
+    // Función para finalizar compra
   const comprar = () => {
     alert("¡Compra realizada con éxito!");
     vaciarCarrito(); // Limpiar carrito después de comprar
@@ -29,13 +28,14 @@ export default function Pagar() {
           {carrito.map((libro) => (
           <div key={libro.id}>
             <br/> 
-            <img src={libro.portada} alt={libro.titulo} width="60" /> --- {libro.titulo} --- ${libro.precio}
+            <img src={libro.portada} alt={libro.titulo} width="60" /> &nbsp;&nbsp;&nbsp; {libro.titulo} &nbsp;&nbsp;&nbsp; ${libro.precio} &nbsp;&nbsp;&nbsp; ({libro.cantidad}) &nbsp;&nbsp;&nbsp; ${libro.precio * libro.cantidad}
             <br/>
           </div>
         ))}
           <br/>
-          <h3>Total a pagar: ${total}</h3>
           <br/>
+          <hr />
+          <h3>Total a pagar: ${total}</h3>
         <div>
           <button id="Boton-pagar" onClick={comprar}>Confirmar y Pagar</button>
           <button id="Boton-cancelar" onClick={() => navigate("/")}>Cancelar</button>
